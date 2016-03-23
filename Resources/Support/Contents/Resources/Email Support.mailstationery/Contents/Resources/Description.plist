@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Display Name</key>
+	<string>Email Support</string>
+	<key>Folder Name</key>
+	<string>Email Support.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Headers</key>
+	<dict>
+		<key>To</key>
+		<array>
+			<string>example@yourhelpdesk.com</string>
+		</array>
+	</dict>
+	<key>Is User Created</key>
+	<string>YES</string>
+</dict>
+</plist>

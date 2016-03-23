@@ -1,0 +1,3 @@
+#!/bin/bash
+MSERIAL=`system_profiler SPHardwareDataType | awk '/Serial/ {print $4}'`
+/usr/bin/sed -i "" "s/unknown/$MSERIAL/g" /Library/Application\ Support/Apple/Mail/Stationery/Apple/Contents/Resources/Support/Contents/Resources/Email\ Support.mailstationery/Contents/Resources/content.html

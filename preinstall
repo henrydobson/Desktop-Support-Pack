@@ -1,0 +1,3 @@
+#!/bin/bash
+/bin/mkdir -p /Library/Management/Backup/mailStationery/
+/bin/mv -f /Library/Application\ Support/Apple/Mail/Stationery/Apple/Contents/Resources/ /Library/Management/Backup/mailStationery/
